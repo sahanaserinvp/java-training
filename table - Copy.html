@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Web UI development learnings">
+<meta name="keywords" content="HTML,CSS,XML,Javascript">
+<meta name="author" content="Sahana">
+<style>
+table, th, td {
+	border:1px  solid red; }
+</style>
+</head>
+<body>
+
+<table border="3" bgcolor="#98f5ff">
+<thead>
+<tr><th>First name</th><th>Last name</th><th>Marks</th></tr>
+</thead>
+
+<tbody>
+<tr><td>sahana</td><td>Serin</td><td>100</th></tr>
+<tr><td>Indu</td><td>Krishnan</td><td>80</th></tr>
+<tr><td>Amrit</td><td>Harikrishnan</td><td>70</th></tr>
+
+
+</tbody>
+</table>
+
+<form>
+Enter your address:<br>
+<textarea rows="2" cols="30"></textarea><br><br>
+Enter your name: <textarea></textarea><br><br>
+<label for="password">Password: </label>
+<input type="password" id="password" name="password"/><br/><br>
+<label for="email">Email: </label>
+<input type="email" id="email" name="email"/><br/><br>
+<label for="gender">Gender: </label>
+<input type="radio" id="gender" name="gender" value="male"/>Male
+<input type="radio" id="gender" name="gender" value="female"/>Female<br/><br>
+Hobby:<br>
+<input type="checkbox" id="cricket" name="cricket" value="cricket"/>
+<label for="cricket">Cricket</label>
+<input type="checkbox" id="hockey" name="hockey" value="hockey"/>
+<label for="hockey">Hockey</label>
+<input type="checkbox" id="football" name="football" value="football"/>
+<label for="football">Football</label><br><br>
+
+Select start and end date:
+<input type="date" name="Startdate"/>Start date:<br><br>
+<input type="date" name="Enddate"/>End date:<br><br>
+
+<label>Enter your birth nonth-year</label>
+<input type="month" name="newMonth"/>
+<input type="submit"><br><br>
+
+<label>Enter your age</label>
+<input type="number" name="num" min="1" max="100"/>
+<input type="submit"><br><br>
+
+<input type="submit" value="submit">
+</form>
+
+
+</body>
+</html>

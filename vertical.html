@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+counter-reset:section;
+}
+
+h1{
+counter-reset: subsection;
+}
+h1::before{
+counter-increment:section;
+content:"count" counter(section) ":" ;
+}
+p::before{
+counter-increment:subsection;
+
+content: counter(section) "." counter(subsection) "";
+}
+p{
+white-space:pre-line;
+outline:20px solid tomato;
+border:5px solid lightgreen;
+padding:5px 10px;
+outline-style:solid;
+
+}
+
+</style>
+</head>
+
+<body>
+<h1>Welcome to cognizant. Success today means getting your best ideas to mat=rket faster : and to operate differently to drive new values.....
+connected enterprize depend on human insight..
+The krey is connectivity</h1>
+
+<p>Welcome to cognizant. Success today means getting your best ideas to mat=rket faster : and to operate differently to drive new values.....
+connected enterprize depend on human insight..
+The krey is connectivity</p>
+<p>Welcome to cognizant. Success today means getting your best ideas to mat=rket faster : and to operate differently to drive new values.....
+connected enterprize depend on human insight..
+The krey is connectivity</p>
+<p>Welcome to cognizant. Success today means getting your best ideas to mat=rket faster : and to operate differently to drive new values.....
+connected enterprize depend on human insight..
+The krey is connectivity</p>
+<h1>Welcome to cognizant. Success today means getting your best ideas to mat=rket faster : and to operate differently to drive new values.....
+connected enterprize depend on human insight..
+The krey is connectivity</h1>
+</body>
+</html>
